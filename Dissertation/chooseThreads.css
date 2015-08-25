@@ -1,0 +1,183 @@
+.inputEverything {
+    width: 1080px;
+    margin: auto;
+    border-radius: 25px;
+    border-right: 1px solid #ddd;
+    background: rgba(250, 250, 250, 0.6);
+}
+
+#response {
+    padding: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    margin-left: 400px;
+    
+}
+
+/* 
+
+Top bar, container, menu were referenced on the final report [1]. 
+
+Reference below for search box design (used on home page).  
+HTML Search Box. 2015. HTML Search Box. [ONLINE] Available at: http://www.textfixer.com/tutorials/html-search-box.php. [Accessed 20 April 2015].
+
+ */
+ 
+.topbar {
+       // background-color: #0095cc;
+        background-color: rgba(255, 255, 255, 0.95);
+
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+        
+        font-size: 17px;
+        padding: 15px;
+        min-width: 1080px;
+        border-bottom: 2px solid #ddd;
+}
+
+.container {
+    width: 1080px;
+    min-width: 1080px;
+    margin: auto;
+}
+
+.topbar .menu {
+  float: right;
+  list-style: none;
+  margin-top: 5px;
+  word-wrap: break-word;
+}
+
+.menu > li {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu a {
+  color: #898989;
+}
+
+.dropdown-menu {
+  font-size: 16px;
+  margin-top: 5px;
+  min-width: 105px;
+}
+
+.dropdown-menu li a {
+  color: #898989;
+  padding: 6px 20px;
+  font-weight: 300;
+}
+
+.main {
+  margin-left:40px;
+  border    :1px solid #ddd;
+  width: 30%;
+  height: 80%;
+  font-family: "Times New Roman";
+}
+
+
+.images {
+  border            :1px solid black;
+  margin-right      :15px;
+  -moz-box-shadow   :2px 2px 2px #888;
+  -webkit-box-shadow:2px 2px 2px #888;
+  box-shadow        :2px 2px 2px #888;
+  height: 81%;
+  width: 99%;
+}
+
+.images2 {
+    border            :1px solid black;
+    float: left;
+  //  margin-left      :-120px;
+    margin-left: 0px;
+    -moz-box-shadow   :2px 2px 2px #888;
+    -webkit-box-shadow:2px 2px 2px #888;
+    box-shadow        :2px 2px 2px #888;
+}
+
+.title {
+      float: left;
+      width: 495px;
+}
+
+.showThreads {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  
+  border: 1px solid #ddd; 
+}
+
+.insideThreads{
+    position: relative;
+    width: 100%;
+    height: 90px;
+    border: 1px solid #6699ff;   
+    font-family: "Times New Roman";
+    padding-left: 15px;
+    border-radius: 15px;
+}
+
+.homeThread {
+    position: relative;
+  //  width: 1080px;
+    margin: auto;
+    margin-top: 1%;
+   // height: 450px;
+    border: 1px solid #ddd;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.viewThread {
+    background-color: #F8f8f8;
+    width     :75%;    
+    position: fixed;
+    left: 2%;
+    top: 20%;
+    height: 50%;
+    border    :1px solid #ddd;
+   // border-bottom: 1px solid #ddd;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    color: #000000;  
+}
+
+
+#checkbox {
+    margin-right:20px;
+}
+
+.overbody
+{
+    width: 100%;
+    height: 1000px;
+                //background-color: rgb(234, 250, 255);
+   // background-image: url(pattern-2uha.png);
+   background-image: url(pattern-a522.png);
+    
+}
+
+.homePage {
+    width: 200px;
+    border: 2px #000000;
+    margin: auto;
+    
+}
+
+textarea {
+    resize: none;
+}
+
+.watchingimages2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}

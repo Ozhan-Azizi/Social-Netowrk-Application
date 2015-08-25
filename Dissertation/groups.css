@@ -1,0 +1,591 @@
+.inputEverything {
+    width: 1080px;
+    margin: auto;
+    border-radius: 25px;
+    border-right: 1px solid #ddd;
+    background: rgba(250, 250, 250, 0.6);
+}
+
+.info {
+    border: 1px solid #ddd;
+    height: 100px;
+    width: 600px;
+    border-radius: 15px;
+    float: right;
+    margin-top: -350px;
+   // margin-left: 350px;
+    margin-right: 100px;
+}
+
+/* 
+
+Top bar, container, menu were referenced on the final report [1]. 
+
+Reference below for search box design (used on home page).  
+HTML Search Box. 2015. HTML Search Box. [ONLINE] Available at: http://www.textfixer.com/tutorials/html-search-box.php. [Accessed 20 April 2015].
+
+ */
+
+
+.insideInfo
+{
+    padding: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+.topbar {
+       // background-color: #0095cc;
+        background-color: rgba(255, 255, 255, 0.95);
+
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+        
+        font-size: 17px;
+        padding: 15px;
+        min-width: 1080px;
+        border-bottom: 2px solid #ddd;
+}
+
+.container {
+    width: 1080px;
+    min-width: 1080px;
+    margin: auto;
+}
+
+.topbar .menu {
+  float: right;
+  list-style: none;
+  margin-top: 5px;
+  word-wrap: break-word;
+}
+
+.menu > li {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu a {
+  color: #898989;
+}
+
+/*.menu > #welcome {
+    color: #898989;
+}*/
+
+.signbody {
+    background-color: #F8f8f8;
+    width     :700px;
+    margin    :200px auto;
+    border    :1px solid #FFFFFF;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    color: #000000;
+}
+
+.fieldname {
+  float:left;
+  width:120px;
+}
+
+.logmain {
+    background-color: #F8f8f8;
+    width     :700px;
+    margin    :200px auto;
+    border    :1px solid #FFFFFF;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    color: #000000;
+}
+
+.dropdown-menu {
+  font-size: 16px;
+  margin-top: 5px;
+  min-width: 105px;
+}
+
+.dropdown-menu li a {
+  color: #898989;
+  padding: 6px 20px;
+  font-weight: 300;
+}
+
+.main {
+  margin-left:40px;
+  border    :1px solid #ddd;
+  width: 24%;
+  //height: 80%;
+  height: 404px;
+  font-family: "Times New Roman";
+}
+
+#main2 {
+    margin-top: 305px;
+    border: 2px solid #ddd;
+    //width: 100%;
+}
+
+/*.slider {
+  position: relative;
+  width: 30%;
+  height: 470px;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+  border-right: 1px solid #ddd;
+  //overflow: hidden;
+}*/
+
+
+
+.images {
+  border            :1px solid black;
+  margin-right      :15px;
+  -moz-box-shadow   :2px 2px 2px #888;
+  -webkit-box-shadow:2px 2px 2px #888;
+  box-shadow        :2px 2px 2px #888;
+  height: 81%;
+  width: 99%;
+}
+
+.images2 {
+    border            :1px solid black;
+    float: left;
+  //  margin-left      :-120px;
+    margin-left: 0px;
+    -moz-box-shadow   :2px 2px 2px #888;
+    -webkit-box-shadow:2px 2px 2px #888;
+    box-shadow        :2px 2px 2px #888;
+}
+
+.details {
+    
+    background-color: #F8f8f8;
+    width     :500px;    
+    position: relative;
+    left: 37%;
+    bottom: 70%;
+    border    :1px solid #FFFFFF;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    color: #000000;
+}
+
+.putdetails {
+    width: 300px;
+}
+
+.forThread {
+    background-color: #F8f8f8;
+    width     :75%;    
+    position: fixed;
+    left: 12.5%;
+    top: 20%;
+    height: 50%;
+    border    :1px solid #ddd;
+   // border-bottom: 1px solid #ddd;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    color: #000000;    
+}
+
+#thethread {
+    float: 20%;
+}
+
+.sub {
+   background-color: #F8f8f8; 
+   border:1px solid black;
+   text-decoration:none;
+   font-family:"Times New Roman";
+   border-radius: 25px;
+   box-shadow: 2px 2px 2px #888888;
+}
+
+.title {
+      float: left;
+      width: 495px;
+      
+    //  height : 50px;
+}
+
+.showThreads {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  height: 470px;
+  border: 1px solid #ddd; 
+}
+
+.insideThreads{
+    position: relative;
+    width: 100%;
+    height: 90px;
+    border: 1px solid #6699ff;   
+    font-family: "Times New Roman";
+}
+
+.insideThreadsCheck{
+  position: relative;
+  width: 100%;
+  height: 90px;
+  border: 1px solid #6699ff;   
+  font-family: "Times New Roman";
+}
+
+.insideThreadsMine {
+  position: relative;
+  width: 100%;
+  height: 90px;
+  border: 1px solid #6699ff;   
+  font-family: "Times New Roman";
+}
+
+#load {
+/*    height: 50px;
+    width: 50px;
+    border: 2px solid #6699ff;*/
+}
+
+.homeThread {
+    position: relative;
+    //width: 75%;
+    width: 1080px;
+    margin: auto;
+    margin-top: 1%;
+    height: 450px;
+    border: 1px solid #ddd;
+    background-color: rgb(255, 255, 255);;
+    opacity: 0.7;
+}
+
+.boxSearch {
+    background-color:#c3dfef;
+    width: 20%;
+    margin-left: 180px;
+    border: 1px solid #ddd; 
+}
+
+#newSearch {
+    margin: left;
+    padding: 20px;
+}
+
+.sbutton {
+    margin: 0;
+    padding: 5px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:#666;
+    border:1px solid #0076a3; border-right:0px;
+    border-top-left-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
+}
+
+.sbutton:hover{
+    text-decoration: none;
+    background: #007ead;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+    background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+}
+
+.clearIt{
+    clear:both;
+}
+
+.viewThread {
+    background-color: #F8f8f8;
+    width     :75%;    
+    position: fixed;
+    left: 2%;
+    top: 20%;
+    height: 50%;
+    border    :1px solid #ddd;
+   // border-bottom: 1px solid #ddd;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    color: #000000;  
+}
+
+#forForm {
+    margin: auto;
+    font-size: 12px;
+    font-family: Verdana, Arial, Sans-Serif;
+    display: inline-block;
+}
+#messages {
+    font-size: 14px;
+	font-family: Garamond, Times, Serif;
+}
+
+.forComments    {
+    background-color: #F8f8f8;   
+    position: realtive;
+    //right: 12.5%;
+    width: 45%;
+    //top: 20%;
+    display: inline-block;
+    border    :1px solid #BAFFFF;    
+}
+
+.separateComments {
+    border-top: 1px solid #BAFFFF;
+    border-bottom: 1px solid #BAFFFF;
+    border-left: 1px solid #BAFFFF;
+    font-family: "Times New Roman";
+    width : 100%;
+}
+
+.vote {
+  display: inline-block;
+  overflow: hidden;
+  width: 40px;
+  float: right;
+  height: 25px;
+  top: 30%;
+  cursor: pointer;
+  background: url('http://i.stack.imgur.com/iqN2k.png');
+  background-position: 0 -25px;  
+  -webkit-transform: matrix(0.5, 0, 0, 1, 0, -50); /* Safari */
+}
+
+.vote.on {
+    background-position: 0 2px;
+}
+
+.dVote {
+  display: inline-block;
+  overflow: hidden;
+  width: 40px;
+  float: right;
+  height: 25px;
+  top: 30%;
+  cursor: pointer;
+  background: url('http://i.stack.imgur.com/iqN2k.png');
+  background-position: 0 -25px;
+  -webkit-transform: matrix(0.5, 0, 0, -1, 0, -50); /* Safari */
+}
+
+.dVote.on {
+    background-position: 0 2px;
+}
+
+#wrapAll {
+    display: inline-block;  
+    border    :1px solid #BAFFFF;
+    width: 45%;
+}
+
+
+.boxForSort {
+    width: 12%;
+    border: 1px solid #BAFFFF;
+}
+
+#checkbox {
+    margin-right:20px;
+}
+
+.inputbutton {
+   // border: 2px solid #a1a1a1;
+    //float: right;
+    float: right;
+    margin-right: 70%;
+  //  border-radius: 25px;
+}
+
+#sort {
+    width : 100%;
+}
+
+.watchingBox {
+    width: 300px;
+    height: 300px;
+    border: 2px rgb(89,89,89) outset;
+    float: right;
+    margin-top: -30%;
+    margin-right: 10%;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+
+    background: rgb(255, 255, 255);
+}
+
+.watchersBox {
+    width: 300px;
+    height: 300px;
+
+    border: 2px rgb(89,89,89) outset;
+    float: right;
+    margin-top: -5%;
+    margin-right: 10%;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+
+    background: rgb(255, 255, 255); 
+}
+
+.groupsBox {
+    width: 300px;
+    height: 200px;
+
+    border: 2px rgb(89,89,89) outset;
+    float: right;
+    margin-top: 20%;
+    margin-right: -21%;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+
+    background: rgb(255, 255, 255);    
+}
+
+#watchtitle {
+    float: right;
+    margin-top: -31%;
+    margin-right: 19%;
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: bold;
+}
+
+#watcherstitle {
+    float: right;
+    margin-top: -6%;
+    margin-right: 19%;
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: bold;
+}
+
+#grouptitle {
+    float: right;
+    margin-top: 19%;
+    margin-right: -13%;
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: bold;
+}
+
+.photos { 
+    width: 100%;
+    border: 2px solid #a1a1a1;
+}
+
+.inputPhotos {
+    background-color: #F8f8f8;
+    width     :600px;
+    float: right;
+    display: inline-block; 
+    border    :2px solid #a1a1a1;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    color: #000000; 
+}
+
+.perPic {
+    margin-left: 15%;
+    display: none;
+    
+}
+
+.photoText {
+   // position: relative;
+    margin-top: -22%;
+    margin-left: 40%;
+   // display: inline-block;
+}
+
+.coverPhoto {
+    display: inline-block;
+}
+
+.overbody
+{
+    width: 100%;
+/*    height: 200%;*/
+    height: 1000px;
+         //background-color: rgb(234, 250, 255);
+    clear: both;
+   // background-image: url(abstract_color_background.jpg);
+  //  background-image: url("BackgroundImagesCss.jpg");
+    background-image: url(pattern-a522.png);
+    
+}
+
+.homePage {
+    width: 200px;
+    border: 2px #000000;
+    margin: auto;
+    
+}
+
+textarea {
+    resize: none;
+}
+
+.homeFilter {
+    display: none;
+    background-color: #FFFFFF; 
+    border:1px solid black;
+    text-decoration:none;
+    font-family:"Times New Roman";
+    height: 200px;
+    width: 75%;
+    margin: auto;
+   // margin-left: 0%;
+    opacity: 0.7;
+}
+
+#loadfilter {
+    margin-left: 12.5%;
+   // margin-left: 0%;
+}
+
+.firstFilter {
+    float: left;
+    margin-left: 50px;
+    border: 2px solid #ddd;
+}
+
+.secondFilter {
+    display: inline-block;
+    margin-left: 100px;
+    border: 2px solid #ddd;
+}
+
+.watchingimages2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#viewMembers {
+    margin-left: 15%;
+    margin-bottom: 0%;
+}
+
+#viewWatchers {
+    margin-left: 15%;
+    margin-bottom: 0%;
+}
+
+.likebuttonMain {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+.perLine {
+    border: 1px solid #ddd;
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    border-radius: 25px;
+    padding: 20px;
+}

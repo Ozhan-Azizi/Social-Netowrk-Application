@@ -1,0 +1,73 @@
+.inputEverything {
+    width: 1080px;
+    margin: auto;
+    border-radius: 25px;
+    border-right: 1px solid #ddd;
+    background: rgba(250, 250, 250, 0.6);
+}
+
+.topbar {
+       // background-color: #0095cc;
+        background-color: rgba(255, 255, 255, 0.95);
+
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+        
+        font-size: 17px;
+        padding: 15px;
+        min-width: 1080px;
+        border-bottom: 2px solid #ddd;
+}
+
+.container {
+    width: 1080px;
+    min-width: 1080px;
+    margin: auto;
+}
+
+.topbar .menu {
+  float: right;
+  list-style: none;
+  margin-top: 5px;
+  word-wrap: break-word;
+}
+
+.menu > li {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu a {
+  color: #898989;
+}
+
+.fieldname {
+  float:left;
+  width:120px;
+}
+
+.logmain {
+  //  background-color: #F8f8f8;
+    width     :700px;
+    margin    :200px auto;
+    border    :1px solid #FFFFFF;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    //color: #000000;
+    background-color: rgb(250, 250, 250);
+}
+
+.overbody
+{
+    width: 100%;
+    height: 1000px;
+                //background-color: rgb(234, 250, 255);
+   // background-image: url(pattern-2uha.png);
+   background-image: url(pattern-a522.png);
+    
+}
+
+textarea {
+    resize: none;
+}
